@@ -15,7 +15,7 @@ nav ul li{ margin-left: 1.5rem; }
 /* Margenes de los iconos */
 nav ul i{ margin-right: .5rem; }
 /* header con imagen */
-header{ height: 100vh; position: relative; background-image: url('../img/header.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover; z-index:1; display: flex; justify-content: center; align-items: center; text-align: center; color: white; flex-direction: column; }
+header{ height: 100vh; position: relative; background-attachment: fixed; background-image: url('../img/header.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover; z-index:1; display: flex; justify-content: center; align-items: center; text-align: center; color: white; flex-direction: column; }
 /* Capa oscura sobre el header */
 header::after{ content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(29,66,32,0.6); z-index:-1; }
 /* Imagen header */
