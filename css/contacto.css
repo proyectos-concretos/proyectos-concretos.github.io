@@ -1,5 +1,5 @@
 @import url('general.css');
-main{ background-color: var(--color-verde-1); height: 100vh; display: flex; align-items: center; }
+main{ background-color: var(--color-verde-1); min-height: 100vh; display: flex; align-items: center; }
 main img{ width: 20rem; }
 main li a{color: white; font-weight: bold;}
 main li a:hover{color: rgb(192, 192, 192); }
