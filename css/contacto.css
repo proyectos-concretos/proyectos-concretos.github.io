@@ -5,8 +5,8 @@ main li a{color: white; font-weight: bold;}
 main li a:hover{color: rgb(192, 192, 192); }
 main li{ display: inline-block;}
 label{color: white;}
-input{background-color: #09140A !important; border: none !important; padding: 12px 15px !important; }
-.form-control:focus { outline: 0; box-shadow: 0 0 0 .25rem rgba(8, 253, 0, 0.25); background-color: #173119 !important;}
+input{ color: rgb(114, 114, 114) !important; background-color: #09140A !important; border: none !important; padding: 12px 15px !important; }
+.form-control:focus { outline: 0; box-shadow: 0 0 0 .25rem rgba(8, 253, 0, 0.25); background-color: #173119 !important; }
 .btn-enviar{ padding: 12px 15px !important; margin-top: 1.5rem; width: 100%; background-color: var(--color-verde-2); color: white; transition: 0.4s; -webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; -o-transition: 0.4s; }
 .btn-enviar:hover{ color: white; background-color: #667e12; transition: 0.4s; -webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; -o-transition: 0.4s; }
 h2{color: white; background-color: var(--color-verde-2); display: inline-block; padding: 5px 20px; }
