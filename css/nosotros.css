@@ -2,3 +2,7 @@
 #header-nosotros{ height: 50vh; }
 header hr{ height: 5px !important; background-color: var(--color-verde-2); width: 100px; opacity: 1; margin: 20px auto; }
 main h1{ color: white; background-color: var(--color-verde-2); display: inline-block; padding: 8px; margin-bottom: 3rem; }
+/* Agrega los estilos a los li de los valores empresariales */
+main ul li{ list-style: disc; margin-left: 2rem; }
+/* Tamaño del texto del main */
+main p, main ul{ font-size: 20px; }
