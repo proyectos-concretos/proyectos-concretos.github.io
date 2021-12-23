@@ -7,7 +7,9 @@ function enviar() {
         Body : `<strong>${document.querySelector('#nombre').value}</strong> está interesado en obtener mas información sobre <strong>Proyectos Concretos</strong>, podemos contactarlo al correo: ${document.querySelector('#correo').value}`
     }).then(
       message => alert('Mensaje enviado')
-    );
+    ).catch((e)=>{
+        console.log(e);
+    });
 }
 
 document.querySelector('.btn-enviar').addEventListener('click', enviar);
